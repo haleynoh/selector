@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  background-color: #EFDCCC;
+}
+.bigContainer {
+	background-color: #A18167;
+	 padding: 10px;
+}
+
+.smallContainer {
+  display: flex;
+}
+
+.smallContainer div {
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.smallContainer > div {
+  background-color: #F5F5DC;
+  width: 80%;
+}
+
+.smallContainer > div > p:first-child {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: #A18167;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.bigContainer2 {
+	background-color: #FF8FAB;
+}
+
+.mediumContainer {
+  display: flex;
+}
+
+.mediumContainer div {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	margin: 20px;
+	padding: 10px;
+	background-color: #FFC2D1;
+}
